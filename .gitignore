@@ -2,7 +2,6 @@ downloads
 sstate-cache
 tmp
 cache
-build
 pn-buildlist
 task-depends.dot
 workspace
