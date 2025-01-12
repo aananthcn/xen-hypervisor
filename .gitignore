@@ -1,0 +1,19 @@
+downloads
+sstate-cache
+tmp
+cache
+build
+pn-buildlist
+task-depends.dot
+workspace
+
+# Ignore these yocto layers
+yocto/poky
+yocto/meta-*
+
+# But do not ignore these yocto layers
+!meta-cariq
+
+*.log
+*.lock
+.vscode
